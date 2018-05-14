@@ -78,7 +78,7 @@ typedef struct {
   PyObject* protocol;
 #endif
   PyObject* task_done;
-  PipelineEntry queue[10];
+  PipelineEntry queue[100];
   size_t queue_start;
   size_t queue_end;
 } Pipeline;
